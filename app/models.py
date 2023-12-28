@@ -2,8 +2,8 @@ from flask_login import UserMixin
 import mysql.connector
 from .config import db_config
 
-db = mysql.connector.connect(**db_config)
-cursor = db.cursor()
+# db = mysql.connector.connect(**db_config)
+# cursor = db.cursor()
 
 import psycopg2
 
