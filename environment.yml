@@ -1,0 +1,8 @@
+name: booksyenv
+dependencies:
+  - flask
+  - flask-login
+  - mysql-connector-python
+  - psycopg2
+  - gunicorn
+  - requests
